@@ -54,7 +54,7 @@ const team = [
   {
     name: 'Maryam Saeed',
     role: 'AI Engineer',
-    location: 'Islamabad, PK',
+    location: 'Rawalpindi, PK',
     image: 'https://ui-avatars.com/api/?name=Maryam+Saeed&background=0D8ABC&color=fff',
     skills: ['Python', 'TensorFlow', 'CV'],
     bio: 'Turns data into intelligent user experiences.',
@@ -62,12 +62,13 @@ const team = [
   {
     name: 'Ahmed Ali',
     role: 'Digital Marketer',
-    location: 'Rawalpindi, PK',
+    location: 'Islamabad, PK',
     image: 'https://ui-avatars.com/api/?name=Ahmed+Ali&background=0D8ABC&color=fff',
     skills: ['SEO', 'Analytics', 'Ads'],
     bio: 'Drives growth with data‑driven marketing.',
   },
 ];
+
 
 /* ───────── Component ───────── */
 export const TeamSection = () => {
