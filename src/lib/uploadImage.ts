@@ -1,5 +1,6 @@
 const uploadImage = async (file: File): Promise<string> => {
-  const apiKey = import.meta.env.VITE_IMGBB_API_KEY!;
+const apiKey = import.meta.env.VITE_IMGBB_API_KEY!;
+
   
   // Convert file to Base64 string
   const toBase64 = (file: File) =>
