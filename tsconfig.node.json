@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Core */
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+
+    /* Project‑reference requirement */
+    "composite": true,
+
+    /* Bundler / Vite */
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+
+    /* Emit must be allowed for a referenced project */
+    "noEmit": false,
+
+    /* Linting preferences */
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Misc */
+    "skipLibCheck": true
+  },
+  "include": ["vite.config.ts"]
+}
