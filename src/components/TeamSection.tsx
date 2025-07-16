@@ -38,7 +38,7 @@ const team = [
   {
     name: 'Ayesha Khan',
     role: 'UI/UX Designer',
-    location: 'Lahore, PK',
+    location: 'Rawalpindi, PK',
     image: 'https://ui-avatars.com/api/?name=Ayesha+Khan&background=0D8ABC&color=fff',
     skills: ['Figma', 'Design‑Systems', 'Research'],
     bio: 'Creates beautiful, intuitive experiences for web & mobile.',
@@ -46,7 +46,7 @@ const team = [
   {
     name: 'Bilal Ahmed',
     role: 'Full‑Stack Developer',
-    location: 'Karachi, PK',
+    location: 'Rawalpindi, PK',
     image: 'https://ui-avatars.com/api/?name=Bilal+Ahmed&background=0D8ABC&color=fff',
     skills: ['Next.js', 'Node.js', 'AWS'],
     bio: 'Builds scalable SaaS and e‑commerce platforms.',
