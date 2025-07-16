@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet-async';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
