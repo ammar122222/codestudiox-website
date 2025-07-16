@@ -8,7 +8,7 @@ import { AdminProvider } from "@/contexts/AdminContext";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
 import Index from "./pages/Index";
 import Portfolio from "./pages/Portfolio";
-import AdminLogin from "./pages/AdminLogin";
+import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminProjects from "./pages/AdminProjects";
 import AdminSubmissions from "./pages/AdminSubmissions";

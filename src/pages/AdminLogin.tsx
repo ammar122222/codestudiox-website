@@ -99,11 +99,7 @@ const AdminLogin = () => {
               {isLoading ? "Signing in..." : "Sign In"}
             </Button>
           </form>
-          <div className="mt-6 p-4 bg-slate-700/50 rounded-lg">
-            <p className="text-sm text-gray-400 mb-2">Demo Credentials:</p>
-            <p className="text-xs text-gray-300">admin@codestudiox.com / admin123</p>
-            <p className="text-xs text-gray-300">brother@codestudiox.com / brother123</p>
-          </div>
+          
         </CardContent>
       </Card>
     </div>
