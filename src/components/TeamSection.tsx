@@ -171,7 +171,7 @@ export const TeamSection = () => {
               <p className="text-gray-300">Experts</p>
             </div>
             <div>
-              <div className="text-4xl font-bold text-purple-400">4</div>
+              <div className="text-4xl font-bold text-purple-400">2</div>
               <p className="text-gray-300">Cities</p>
             </div>
             <div>
