@@ -118,7 +118,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">Email Us</h4>
-                    <p className="text-gray-400">Abdullah.qureshi01@icloud.com</p>
+                    <p className="text-gray-400">codestudioxbyblack@gmail.com</p>
                   </div>
                 </div>
 
