@@ -1,4 +1,5 @@
 // src/components/layout/SiteHeader.tsx
+
 import logo from '/logo.png';
 import { Button } from '@/components/ui/button';
 import { LogOut } from 'lucide-react';
@@ -8,7 +9,7 @@ import { Link } from 'react-router-dom';
 interface Props {
   title: string;
   subtitle?: string;
-  backLink?: string;   // optional “Back to …” link
+  backLink?: string;
 }
 
 export default function SiteHeader({
@@ -19,21 +20,28 @@ export default function SiteHeader({
   const { logout } = useAdmin();
 
   return (
-    <header className="bg-slate-800/50 border-b border-electric-blue/20 p-6">
+    <header className="sticky top-0 z-50 bg-slate-800/60 backdrop-blur border-b border-electric-blue/20 p-6">
       <div className="flex justify-between items-center">
-        {/* logo + titles */}
+        {/* Logo + titles */}
         <div className="flex items-center gap-3">
-          <img src={logo} alt="logo" className="w-8 h-8 object-contain" />
+          <img
+            src={logo}
+            alt="logo"
+            className="w-10 h-10 object-contain"
+          />
           <div>
             <h1 className="text-3xl font-bold gradient-text">{title}</h1>
             <p className="text-gray-400">{subtitle}</p>
           </div>
         </div>
 
-        {/* right side */}
+        {/* Right side */}
         <div className="flex items-center gap-3">
           {backLink && (
-            <Link to={backLink} className="text-electric-blue text-sm hover:underline">
+            <Link
+              to={backLink}
+              className="text-electric-blue text-sm hover:underline"
+            >
               Back
             </Link>
           )}
