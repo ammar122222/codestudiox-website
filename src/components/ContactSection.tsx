@@ -128,7 +128,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-white">Call Us</h4>
-                    <p className="text-gray-400">+92 331 572 1177 (Mobile)</p>
+                    <p className="text-gray-400">+92 3255 673 3033 (Whatsapp)</p>
                   </div>
                 </div>
 
