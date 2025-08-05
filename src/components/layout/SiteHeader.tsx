@@ -23,7 +23,7 @@ export default function SiteHeader({
       <div className="flex justify-between items-center">
         {/* logo + titles */}
         <div className="flex items-center gap-3">
-          <img src={logo} alt="logo" className="w-8 h-8 object-contain" />
+          <link rel="icon" href="/logo.png" type="image/png" />
           <div>
             <h1 className="text-3xl font-bold gradient-text">{title}</h1>
             <p className="text-gray-400">{subtitle}</p>
