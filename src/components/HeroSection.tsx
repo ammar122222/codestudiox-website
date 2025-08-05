@@ -1,26 +1,14 @@
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 57bb0b8 (Fix JSX structure in HeroSection)
 import { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Code, Sparkles } from 'lucide-react';
 import { useAdvancedAnimations, useAnimatedCounter } from '@/hooks/useAdvancedAnimations';
-import { useSiteStats } from '@/hooks/useSiteStats';
+
 export const HeroSection = () => {
   const { mousePosition, particlesRef, observeElements } = useAdvancedAnimations();
   const heroRef = useRef<HTMLDivElement>(null);
-<<<<<<< HEAD
 
   const projectsCount = useAnimatedCounter(2);
   const satisfactionCount = useAnimatedCounter(100);
-=======
-  const stats = useSiteStats();
-
-const projectsCount = useAnimatedCounter(stats?.projectsDelivered ?? 0);
-const satisfactionCount = useAnimatedCounter(stats?.clientSatisfaction ?? 0);
->>>>>>> 57bb0b8 (Fix JSX structure in HeroSection)
 
   useEffect(() => {
     const cleanup = observeElements();
