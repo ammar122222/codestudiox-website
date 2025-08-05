@@ -113,27 +113,30 @@ export const HeroSection = () => {
             </Button>
           </div>
 
-          {/* Enhanced Stats with Animated Counters */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 fade-in fade-in-stagger-5">
-            <div className="text-center p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-electric-blue/20 hover-3d">
-              <div className="text-4xl font-bold text-electric-blue mb-2 counter">
-                <span ref={projectsCount.ref}>{projectsCount.count}</span>+
-              </div>
-              <div className="text-gray-400 font-medium">Projects Delivered</div>
-            </div>
-            <div className="text-center p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-electric-blue/20 hover-3d">
-              <div className="text-4xl font-bold text-electric-blue mb-2 counter">
-                <span ref={satisfactionCount.ref}>{satisfactionCount.count}</span>%
-              </div>
-              <div className="text-gray-400 font-medium">Client Satisfaction</div>
-            </div>
-            <div className="text-center p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-electric-blue/20 hover-3d">
-              <div className="text-4xl font-bold text-electric-blue mb-2">24/7</div>
-              <div className="text-gray-400 font-medium">Support Available</div>
-            </div>
-          </div>
-        </div>
-      </div>
+         {/* Enhanced Stats with Animated Counters */}
+<div className="grid grid-cols-1 md:grid-cols-3 gap-8 fade-in fade-in-stagger-5">
+  {/* Projects Delivered */}
+  <div className="text-center p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-electric-blue/20 hover-3d">
+    <div className="text-4xl font-bold text-electric-blue mb-2 counter">
+      <span ref={projectsCount.ref}>50</span>+
+    </div>
+    <div className="text-gray-400 font-medium">Projects Successfully Delivered</div>
+  </div>
+
+  {/* Client Satisfaction */}
+  <div className="text-center p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-electric-blue/20 hover-3d">
+    <div className="text-4xl font-bold text-electric-blue mb-2 counter">
+      <span ref={satisfactionCount.ref}>96</span>%
+    </div>
+    <div className="text-gray-400 font-medium">Client Satisfaction Rate</div>
+  </div>
+
+  {/* Support Hours */}
+  <div className="text-center p-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-electric-blue/20 hover-3d">
+    <div className="text-4xl font-bold text-electric-blue mb-2">12 hrs / day</div>
+    <div className="text-gray-400 font-medium">Support Available (9 AM – 9 PM)</div>
+  </div>
+</div>
 
 
     </section>
